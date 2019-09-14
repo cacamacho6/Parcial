@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Parcial</string>
+    <string name="title_question">Pregunta No</string>
+    <string name="score_text">Puntaje:</string>
+    <string name="correct">Correctas: </string>
+    <string name="incorrect">Incorrectas: </string>
+</resources>

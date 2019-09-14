@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <EditText
+        android:id="@+id/json_text"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:autoText="false"
+        android:ems="10"
+        android:inputType="textMultiLine"
+        android:singleLine="true"
+        android:text='{"response_code":0,"results":[{"category":"Entertainment: Video Games","type":"multiple","difficulty":"medium","question":"In World of Warcraft lore, who was first to have the title The Ashbringer?","correct_answer":"Alexandros Mograine","incorrect_answers":["Tirion Fordring","Arthas Menethil","Uther the Lightbringer"]},{"category":"Entertainment: Video Games","type":"multiple","difficulty":"medium","question":"In WarioWare: Smooth Moves, which one of these is NOT a Form?","correct_answer":"The Hotshot","incorrect_answers":["The Discard","The Elephant","The Mohawk"]},{"category":"Entertainment: Video Games","type":"multiple","difficulty":"medium","question":"This weapon in Counter-Strike: Global Offensive does not exist in real life.","correct_answer":"M4A4","incorrect_answers":["AWP","M4A1","MP9"]},{"category":"Entertainment: Video Games","type":"multiple","difficulty":"medium","question":"Which of these characters was almost added into Super Smash Bros. Melee, but not included as the game was too far in development?","correct_answer":"Solid Snake","incorrect_answers":["Pit","Meta Knight","R.O.B."]},{"category":"Entertainment: Video Games","type":"multiple","difficulty":"medium","question":"What level do you have to be to get a service medal on CS:GO?","correct_answer":"40","incorrect_answers":["50","30","20"]},{"category":"Entertainment: Video Games","type":"multiple","difficulty":"medium","question":"In Call Of Duty: Zombies, completing which mapv#039;s easter egg will reward you with the achievement, Time Travel Will Tell?","correct_answer":"Shangri-La","incorrect_answers":["Ascension","Moon","Die Rise"]},{"category":"Entertainment: Video Games","type":"multiple","difficulty":"medium","question":"Which character does the player play as in the video game Bastion?","correct_answer":"The Kid","incorrect_answers":["Rucks","Zulf","Zia"]},{"category":"Entertainment: Video Games","type":"multiple","difficulty":"medium","question":"In Portal, what color is the Intelligence Core?","correct_answer":"Blue","incorrect_answers":["Purple","Red","Orange"]},{"category":"Entertainment: Video Games","type":"multiple","difficulty":"medium","question":"Which Sonic the Hedgehog game introudced Knuckles the Echidna?","correct_answer":"Sonic the Hedgehog 3","incorrect_answers":["Sonic the Hedgehog 2","Sonic  Knuckles","Sonic Adventure"]},{"category":"Entertainment: Video Games","type":"multiple","difficulty":"medium","question":"Who is credited with having created the worlds first video game Easter Egg?","correct_answer":"Warren Robinett","incorrect_answers":["Julius Smith","Will Crowther","Don Woods"]}]}  '
+        android:textSize="8sp" />
+
+    <Button
+        android:id="@+id/start_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Iniciar" />
+</LinearLayout>
